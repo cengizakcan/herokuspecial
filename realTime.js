@@ -110,18 +110,13 @@ App.use(Parser.urlencoded({ extended: false }));
 
  
     let optionsSsl = {
-        port:80,
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Headers': 'X-Requested-With,content-type',
             'Access-Control-Allow-Credentials': true,
-        },
-		log: false,
-		agent: false,
-		origins: '*:*',
-		transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling']
+        }
     };
  
     Https.createServer(App).listen(optionsSsl, ()=> {
