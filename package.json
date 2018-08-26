@@ -2,7 +2,7 @@
   "name": "appsocket",
   "version": "1.0.0",
   "description": "Fotoğrafseç.com RealTimeService App",
-  "main": "appSocket.js",
+  "main": "realTime.js",
   "scripts": {
     "start": "node realTime.js"
   },
