@@ -4,7 +4,7 @@
   "description": "Fotoğrafseç.com RealTimeService App",
   "main": "appSocket.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node realTime.js"
   },
   "author": "Cengiz AKCAN",
   "license": "ISC",
